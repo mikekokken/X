@@ -116,3 +116,52 @@ a:active
 	text-decoration: none;
 } 
 
+/* responsive stuff */
+
+div {
+    -webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+    -webkit-column-gap: 50px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 10px; /* Firefox */
+    column-gap: 10px;
+}
+
+@media only screen and (max-width:900px) {
+	.intro_scrollbox
+    	{
+    		display:none;
+    	}
+
+	
+}
+
+
+@media only screen and (max-width:540px) {
+	
+   
+   .intro_scrollbox
+    	{
+    		display:none;
+    	}
+
+    .essay_complete
+    	{ 
+    		width:400px;
+    	}
+
+
+    	h1 
+    	{
+    		font-size: 12pt;
+		}
+		h2
+		{
+			font-size: 10pt;
+		}
+		p
+		{
+			font-size: 10pt;
+		}
+}
+
