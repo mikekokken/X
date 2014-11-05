@@ -1,4 +1,4 @@
-$(document).ready(function minWidth() 
+function minWidth() 
 {
     var a = []; // array to store the width of each element
     var b = 0;    
@@ -18,4 +18,19 @@ $(document).ready(function minWidth()
 
     console.log(a);
     console.log(b);
-});
+}
+
+function switchEssay(a) 
+{
+    $(".the_essay:visible").fadeOut("slow");
+
+
+    $('#the_essay' + a + '').fadeIn("slow", function() {
+        $.scrollTo(  $('#the_essay' + a + ''), 1000);
+    });
+}
+function scrollTo(where)
+{
+    console.log(where);
+    $.scrollTo( $('#'+where+''), 1000);
+}

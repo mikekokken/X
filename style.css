@@ -63,6 +63,9 @@ hr
 {
 	width: 300px;
 	float:left;
+	position: relative;
+	top: 0;
+	left: 0;
 }
 .essay_nav li 
 {
@@ -77,6 +80,14 @@ hr
 {
 	font-family: 'Courier New', monospace;
 	font-size:10pt;
+}
+
+/* ESSAY SWITCH STYLES */
+
+.the_essay 
+{
+	padding-top: 50px;
+	display: none;
 }
 
 /* andere stijlen */
@@ -118,50 +129,38 @@ a:active
 
 /* responsive stuff */
 
-div {
-    -webkit-column-count: 1; /* Chrome, Safari, Opera */
-    -moz-column-count: 1; /* Firefox */
-    column-count: 1;
-    -webkit-column-gap: 50px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 10px; /* Firefox */
-    column-gap: 10px;
-}
-
 @media only screen and (max-width:900px) {
+
 	.intro_scrollbox
-    	{
-    		display:none;
-    	}
-
-	
+	{
+		display:none;
+	}
 }
-
 
 @media only screen and (max-width:540px) {
-	
    
    .intro_scrollbox
-    	{
-    		display:none;
-    	}
+	{
+		display:none;
+	}
 
     .essay_complete
-    	{ 
-    		width:400px;
-    	}
+	{ 
+		width:400px;
+	}
 
 
-    	h1 
-    	{
-    		font-size: 12pt;
-		}
-		h2
-		{
-			font-size: 10pt;
-		}
-		p
-		{
-			font-size: 10pt;
-		}
+	h1 
+	{
+		font-size: 12pt;
+	}
+	h2
+	{
+		font-size: 10pt;
+	}
+	p
+	{
+		font-size: 10pt;
+	}
 }
 
