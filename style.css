@@ -82,6 +82,14 @@ hr
 	font-size:10pt;
 }
 
+/* ESSAY SWITCH STYLES */
+
+.the_essay 
+{
+	padding-top: 50px;
+	display: none;
+}
+
 /* andere stijlen */
 .button 
 {	
@@ -122,39 +130,37 @@ a:active
 /* responsive stuff */
 
 @media only screen and (max-width:900px) {
-	.intro_scrollbox
-    	{
-    		display:none;
-    	}
 
-	
+	.intro_scrollbox
+	{
+		display:none;
+	}
 }
 
 @media only screen and (max-width:540px) {
-	
    
    .intro_scrollbox
-    	{
-    		display:none;
-    	}
+	{
+		display:none;
+	}
 
     .essay_complete
-    	{ 
-    		width:400px;
-    	}
+	{ 
+		width:400px;
+	}
 
 
-    	h1 
-    	{
-    		font-size: 12pt;
-		}
-		h2
-		{
-			font-size: 10pt;
-		}
-		p
-		{
-			font-size: 10pt;
-		}
+	h1 
+	{
+		font-size: 12pt;
+	}
+	h2
+	{
+		font-size: 10pt;
+	}
+	p
+	{
+		font-size: 10pt;
+	}
 }
 

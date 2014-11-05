@@ -10,7 +10,7 @@
 		<link type="text/css" rel="stylesheet" href="style.css"/>
 </head>
 
-<body>
+<body onload="minWidth();">
 	<div id="wrapper">	
 
 		<!-- TITLES BAR  &  INTRODUCTIONS TO THE ESSAYS -->
@@ -40,7 +40,7 @@
 						<p>Doordat we bepaalde personen, groepen of instanties in een positie hebben geplaatst om (deels) voor ons te denken, is er door de geschiedenis heen een complex netwerk van aannames gecreëerd. Zo complex, dat het eigenlijk onmogelijk wordt nieuwe ideeën te uiten noch te bekritiseren zonder terug te vallen op de huidige aannames. </p>
 					</div>
 					
-					<a href="#essay_wrapper" class="button">purchase!</a>
+					<a href="javascript:void(0);" class="button" onclick="switchEssay(1);">purchase!</a>
 				</article>
 
 				<!-- #2 -->
@@ -62,7 +62,7 @@
 						<p>Doordat we bepaalde personen, groepen of instanties in een positie hebben geplaatst om (deels) voor ons te denken, is er door de geschiedenis heen een complex netwerk van aannames gecreëerd. Zo complex, dat het eigenlijk onmogelijk wordt nieuwe ideeën te uiten noch te bekritiseren zonder terug te vallen op de huidige aannames. </p>
 					</div>
 					
-					<a href="#essay_wrapper" class="button">purchase!</a>
+					<a href="javascript:void(0);" class="button" onclick="switchEssay(2);">purchase!</a>
 				</article>
 
 				<!-- #3 -->
@@ -84,7 +84,7 @@
 						<p>Doordat we bepaalde personen, groepen of instanties in een positie hebben geplaatst om (deels) voor ons te denken, is er door de geschiedenis heen een complex netwerk van aannames gecreëerd. Zo complex, dat het eigenlijk onmogelijk wordt nieuwe ideeën te uiten noch te bekritiseren zonder terug te vallen op de huidige aannames. </p>
 					</div>
 					
-					<a href="#essay_wrapper" class="button">purchase!</a>					
+					<a href="javascript:void(0);" class="button" onclick="switchEssay(3);">purchase!</a>					
 				</article>
 
 				<!-- #4 -->
@@ -106,7 +106,7 @@
 						<p>Doordat we bepaalde personen, groepen of instanties in een positie hebben geplaatst om (deels) voor ons te denken, is er door de geschiedenis heen een complex netwerk van aannames gecreëerd. Zo complex, dat het eigenlijk onmogelijk wordt nieuwe ideeën te uiten noch te bekritiseren zonder terug te vallen op de huidige aannames. </p>
 					</div>
 
-					<a href="#essay_wrapper" class="button">purchase!</a>
+					<a href="javascript:void(0);" class="button" onclick="switchEssay(4);">purchase!</a>
 				</article>
 
 				<!-- #5 -->
@@ -128,7 +128,7 @@
 						<p>Doordat we bepaalde personen, groepen of instanties in een positie hebben geplaatst om (deels) voor ons te denken, is er door de geschiedenis heen een complex netwerk van aannames gecreëerd. Zo complex, dat het eigenlijk onmogelijk wordt nieuwe ideeën te uiten noch te bekritiseren zonder terug te vallen op de huidige aannames. </p>
 					</div>
 
-					<a href="#essay_wrapper" class="button">purchase!</a>
+					<a href="javascript:void(0);" class="button" onclick="switchEssay(5);">purchase!</a>
 				</article>
 			</div>
 		</section>
@@ -136,10 +136,10 @@
 		<!-- COMPLETE ESSAYS -->
 		<section  class="essay_wrapper" id="essay_wrapper">
 			<!-- #1 -->
-			<article id="the_essay1">
+			<article class="the_essay" id="the_essay1">
 				<div class="essay_nav courier">
 					<ul>
-		                <li><a href="#thevalueofform">The Value of Form</a></li>
+		                <li><a href="#the_essay1">The Value of Form</a></li>
 		                <li><a href="#introduction">Introduction</a></li>
 		                <li><a href="#chapter01:socialimplications">Chapter 01: Social Implications</a></li>
 		                <li><a href="#chapter02:artisticandcommunicativedisciplines">Chapter 02: Artistic and Communicative Disciplines</a></li>
@@ -149,7 +149,7 @@
 				
 				<div class="essay_complete">
 
-					<h1 id="thevalueofform">The Value of Form</h1>
+					<h1 id="thevalueofform">The Value of Form #1</h1>
 
 					<h1 id="byalyaraynetchi">by Alyar Aynetchi</h1>
 
@@ -212,7 +212,7 @@
 			</article>
 
 			<!-- #2 -->
-			<article id="the_essay2">
+			<article class="the_essay" id="the_essay2">
 				<div class="essay_nav courier">
 					<ul>
 		                <li><a href="#thevalueofform">The Value of Form</a></li>
@@ -225,7 +225,7 @@
 				
 				<div class="essay_complete">
 
-					<h1 id="thevalueofform">The Value of Form</h1>
+					<h1 id="thevalueofform">The Value of Form #2</h1>
 
 					<h1 id="byalyaraynetchi">by Alyar Aynetchi</h1>
 
@@ -288,7 +288,7 @@
 			</article>
 
 			<!-- #3 -->
-			<article id="the_essay3">
+			<article class="the_essay" id="the_essay3">
 				<div class="essay_nav courier">
 					<ul>
 		                <li><a href="#thevalueofform">The Value of Form</a></li>
@@ -301,7 +301,7 @@
 				
 				<div class="essay_complete">
 
-					<h1 id="thevalueofform">The Value of Form</h1>
+					<h1 id="thevalueofform">The Value of Form #3</h1>
 
 					<h1 id="byalyaraynetchi">by Alyar Aynetchi</h1>
 
@@ -364,7 +364,7 @@
 			</article>
 
 			<!-- #4 -->
-			<article id="the_essay4">
+			<article class="the_essay" id="the_essay4">
 				<div class="essay_nav courier">
 					<ul>
 		                <li><a href="#thevalueofform">The Value of Form</a></li>
@@ -377,7 +377,7 @@
 				
 				<div class="essay_complete">
 
-					<h1 id="thevalueofform">The Value of Form</h1>
+					<h1 id="thevalueofform">The Value of Form #4</h1>
 
 					<h1 id="byalyaraynetchi">by Alyar Aynetchi</h1>
 
@@ -440,7 +440,7 @@
 			</article>
 
 			<!-- #5 -->
-			<article id="the_essay">
+			<article class="the_essay" id="the_essay5">
 				<div class="essay_nav courier">
 					<ul>
 		                <li><a href="#thevalueofform">The Value of Form</a></li>
@@ -453,7 +453,7 @@
 				
 				<div class="essay_complete">
 
-					<h1 id="thevalueofform">The Value of Form</h1>
+					<h1 id="thevalueofform">The Value of Form #5</h1>
 
 					<h1 id="byalyaraynetchi">by Alyar Aynetchi</h1>
 
@@ -520,7 +520,9 @@
      	</footer>
      </div>
 
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+	<script src="frameworks/jquery-2.1.1.min.js"></script>
+	<script src="frameworks/jquery.scrollTo.min.js"></script>
+	
 	<script src="script.js"></script>
 </body>
 </html>
