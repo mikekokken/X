@@ -63,9 +63,7 @@ hr
 {
 	width: 300px;
 	float:left;
-	position: relative;
-	top: 0;
-	left: 0;
+	position: fixed;
 }
 .essay_nav li 
 {
@@ -130,6 +128,8 @@ a:active
 {
 	text-decoration: none;
 } 
+
+/* slide menu */
 
 /* responsive stuff */
 
