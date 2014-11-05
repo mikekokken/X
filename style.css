@@ -63,6 +63,9 @@ hr
 {
 	width: 300px;
 	float:left;
+	position: relative;
+	top: 0;
+	left: 0;
 }
 .essay_nav li 
 {
@@ -118,15 +121,6 @@ a:active
 
 /* responsive stuff */
 
-div {
-    -webkit-column-count: 1; /* Chrome, Safari, Opera */
-    -moz-column-count: 1; /* Firefox */
-    column-count: 1;
-    -webkit-column-gap: 50px; /* Chrome, Safari, Opera */
-    -moz-column-gap: 10px; /* Firefox */
-    column-gap: 10px;
-}
-
 @media only screen and (max-width:900px) {
 	.intro_scrollbox
     	{
@@ -135,7 +129,6 @@ div {
 
 	
 }
-
 
 @media only screen and (max-width:540px) {
 	
