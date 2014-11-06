@@ -9,11 +9,7 @@ html, body
 
 #wrapper 
 {
-<<<<<<< HEAD
 	padding: 50px 0px 20px 40px;
-=======
-	padding: 30px 20px 20px;
->>>>>>> feature/sliding_menu
 }
 header 
 {
@@ -46,11 +42,11 @@ hr
 }
 .intro_wrapper
 {
-	height: 550px;
+	height: 600px;
 }
 .intro_essay 
 {
-	height: 500px;
+	height: 600px;
 	width: 400px;
 	margin-right:50px;
 	float: left;
@@ -60,35 +56,24 @@ hr
 
 .essay_wrapper 
 {	
-	clear:both;
+	clear: both;
 	margin-bottom: 200px;
 }
 .essay_nav, .essay_nav_inner
 {
-<<<<<<< HEAD
 	width: 250px;
-	float:left;
-	position: relative;
-	top: 0;
-	left: 0;
-=======
-	width: 300px;
 	float: left;
 }
 .essay_nav ul 
 {
-	padding-top: 10px;
->>>>>>> feature/sliding_menu
-}
-.essay_nav ul {
-	padding: 0;
+	padding: 10px 0 0;
 }
 .essay_nav li 
 {
 	list-style-type: none;
 	margin-bottom: 10px;
 }
-.scrolling { /* Note #2 */
+.scrolling { /* keep the navigatation at the top */
     position: fixed;
     top: 10px;
 }
@@ -107,12 +92,9 @@ hr
 
 .the_essay 
 {
-	padding-top: 50px;
+	margin-top: 25px;
+	padding-top: 25px;
 	display: none;
-}
-#the_essay1 /*temporary*/
-{
-	display: block;
 }
 
 /* andere stijlen */
@@ -151,43 +133,3 @@ a:active
 {
 	text-decoration: none;
 } 
-
-/* slide menu */
-
-/* responsive stuff */
-
-@media only screen and (max-width:900px) {
-
-	.intro_scrollbox
-	{
-		display:none;
-	}
-}
-
-@media only screen and (max-width:540px) {
-   
-   .intro_scrollbox
-	{
-		display:none;
-	}
-
-    .essay_complete
-	{ 
-		width:400px;
-	}
-
-
-	h1 
-	{
-		font-size: 12pt;
-	}
-	h2, h3
-	{
-		font-size: 10pt;
-	}
-	p
-	{
-		font-size: 10pt;
-	}
-}
-

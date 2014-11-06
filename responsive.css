@@ -1,0 +1,46 @@
+/* responsive stuff */
+
+@media only screen and (max-width:1280px) {
+   .essay_nav, .essay_nav_inner
+	{
+		width: 200px;
+		float: left;
+		font-size: 8pt;
+	}
+}
+
+@media only screen and (max-width:960px) {
+
+	.intro_scrollbox
+	{
+		display:none;
+	}
+}
+
+@media only screen and (max-width:540px) {
+   
+   .intro_scrollbox
+	{
+		display:none;
+	}
+
+    .essay_complete
+	{ 
+		width:400px;
+	}
+
+
+	h1 
+	{
+		font-size: 12pt;
+	}
+	h2, h3
+	{
+		font-size: 10pt;
+	}
+	p
+	{
+		font-size: 10pt;
+	}
+}
+
