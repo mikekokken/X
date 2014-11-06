@@ -138,13 +138,15 @@
 			<!-- #1 -->
 			<article class="the_essay" id="the_essay1">
 				<div class="essay_nav slide-menu courier">
-					<ul>
-		                <li><a href="#the_essay1">The Value of Form</a></li>
-		                <li><a href="#introduction">Introduction</a></li>
-		                <li><a href="#chapter01:socialimplications">Chapter 01: Social Implications</a></li>
-		                <li><a href="#chapter02:artisticandcommunicativedisciplines">Chapter 02: Artistic and Communicative Disciplines</a></li>
-		                <li><a href="#footnotes">Notes</a></li>
-	            	</ul>
+					<div class="essay_nav_inner">
+						<ul>
+			                <li><a href="#the_essay1">The Value of Form</a></li>
+			                <li><a href="#introduction">Introduction</a></li>
+			                <li><a href="#chapter01:socialimplications">Chapter 01: Social Implications</a></li>
+			                <li><a href="#chapter02:artisticandcommunicativedisciplines">Chapter 02: Artistic and Communicative Disciplines</a></li>
+			                <li><a href="#footnotes">Notes</a></li>
+		            	</ul>
+	            	</div>
 				</div>
 				
 				<div class="essay_complete">
@@ -526,6 +528,11 @@
 	<script src="script.js"></script>
 	
 	<script type="text/javascript">
+
+		$(window).scroll(function(){
+		  $('.essay_nav_inner').toggleClass('scrolling', $(window).scrollTop() > $('.essay_nav').offset().top);
+		});
+
 	</script>
 </body>
 </html>

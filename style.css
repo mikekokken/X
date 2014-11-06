@@ -59,15 +59,22 @@ hr
 	clear:both;
 	margin-bottom: 200px;
 }
-.essay_nav 
+.essay_nav, .essay_nav_inner
 {
 	width: 300px;
-	float:left;
-	position: fixed;
+	float: left;
+}
+.essay_nav ul 
+{
+	padding-top: 10px;
 }
 .essay_nav li 
 {
 	list-style-type: none;
+}
+.scrolling { /* Note #2 */
+    position: fixed;
+    top: 10px;
 }
 .essay_complete 
 {
