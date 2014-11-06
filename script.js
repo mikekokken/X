@@ -1,3 +1,6 @@
+/*
+    make sure the intro texts stay horizontal
+*/
 function minWidth() 
 {
     var a = []; // array to store the width of each element
@@ -20,6 +23,9 @@ function minWidth()
     console.log(b);
 }
 
+/*
+    essay switching function
+*/
 function switchEssay(a) 
 {
     $(".the_essay:visible").fadeOut("slow");
@@ -28,9 +34,4 @@ function switchEssay(a)
     $('#the_essay' + a + '').fadeIn("slow", function() {
         $.scrollTo(  $('#the_essay' + a + ''), 1000);
     });
-}
-function scrollTo(where)
-{
-    console.log(where);
-    $.scrollTo( $('#'+where+''), 1000);
 }
