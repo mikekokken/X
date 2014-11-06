@@ -42,11 +42,11 @@ hr
 }
 .intro_wrapper
 {
-	height: 650px;
+	height: 550px;
 }
 .intro_essay 
 {
-	height: 600px;
+	height: 500px;
 	width: 400px;
 	margin-right:50px;
 	float: left;
@@ -61,15 +61,19 @@ hr
 }
 .essay_nav 
 {
-	width: 300px;
+	width: 250px;
 	float:left;
 	position: relative;
 	top: 0;
 	left: 0;
 }
+.essay_nav ul {
+	padding: 0;
+}
 .essay_nav li 
 {
 	list-style-type: none;
+	margin-bottom: 10px;
 }
 .essay_complete 
 {
