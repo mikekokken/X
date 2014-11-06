@@ -9,7 +9,7 @@ html, body
 
 #wrapper 
 {
-	padding: 50px 0px 20px 40px;
+	padding: 50px 40px 20px 40px;
 }
 header 
 {
@@ -75,7 +75,7 @@ hr
 }
 .scrolling { /* keep the navigatation at the top */
     position: fixed;
-    top: 10px;
+    top: 0;
 }
 .essay_complete 
 {
